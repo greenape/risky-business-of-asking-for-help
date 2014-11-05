@@ -50,3 +50,6 @@ What is clear - would be looking for crisp differentiation between mid and high 
 If we assume social worker/gp assessment.. We'd be talking about (state) formal care. 
 
 
+## New measures
+
+This would make it important to monitor beliefs better. Should also add a population wide median measure.
