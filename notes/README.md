@@ -33,12 +33,12 @@ Things to think about:
 
 ## Themes
 
-	-	Resignation
-		-	Age attribution
-		-	Lack of belief in outcomes
-	-	Low expectations
-	-	Declining offered help
-	-	Lack of information
+-	Resignation
+	-	Age attribution
+	-	Lack of belief in outcomes
+-	Low expectations
+-	Declining offered help
+-	Lack of information
 
 
 ## Initial experiments
