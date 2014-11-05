@@ -20,7 +20,33 @@ Things to think about:
 	-	Utility of company
 	-	Disutility of admitting need
 		-	Being a burden
+		-	Who you are admitting it *to*
+	-	Cost of care
+	-	Once again, there's a strong temporal dynamic here. Pay now, win later.
 3. What do the beliefs correspond to?
 	-	Belief that help will actually be delivered
 	-	Belief that help is actually needed/not needed
 		-	Is self-stigma overriding need
+	-	Belief about what the payoffs will actually be... Impossible outcomes (being stigmatised)
+		-	Raises the question: does stigma need to actually happen for belief in it to persist?
+
+
+## Themes
+
+	-	Resignation
+		-	Age attribution
+		-	Lack of belief in outcomes
+	-	Low expectations
+	-	Declining offered help
+	-	Lack of information
+
+
+## Initial experiments
+
+Going on the CLC unmet need briefing paper.. Two 'types' need, severe need (2+ ADLs). ELSA data says ~ twice as likely to get help if severe. GHS says it depends on what they need help *with*. BHPS is a bit hazy.
+
+What is clear - would be looking for crisp differentiation between mid and high types.
+
+If we assume social worker/gp assessment.. We'd be talking about (state) formal care. 
+
+
