@@ -29,6 +29,8 @@ Things to think about:
 		-	Is self-stigma overriding need
 	-	Belief about what the payoffs will actually be... Impossible outcomes (being stigmatised)
 		-	Raises the question: does stigma need to actually happen for belief in it to persist?
+4. How do you work out the payoffs?
+	-	Revealed preference? (Costs of care per hour are knowable)
 
 
 ## Themes
@@ -48,6 +50,8 @@ Going on the CLC unmet need briefing paper.. Two 'types' need, severe need (2+ A
 What is clear - would be looking for crisp differentiation between mid and high types.
 
 If we assume social worker/gp assessment.. We'd be talking about (state) formal care. 
+
+What if we set it up so that the current state of play is the *start* point. See if it can be sustained, see if it can be made worse/better.
 
 
 ## New measures
