@@ -53,6 +53,12 @@ If we assume social worker/gp assessment.. We'd be talking about (state) formal 
 
 What if we set it up so that the current state of play is the *start* point. See if it can be sustained, see if it can be made worse/better.
 
+### ELSA Data
+
+We have proportions - say, 16.2 (9.7+6.5) single need, 9 severe need.
+
+Would be looking for a scenario where around 2/3 of single need get no help, vs. 1/3 of severe. Calibration?
+
 
 ## New measures
 
