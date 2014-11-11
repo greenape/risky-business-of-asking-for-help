@@ -63,6 +63,7 @@ Would be looking for a scenario where around 2/3 of single need get no help, vs.
 ## New measures
 
 This would make it important to monitor beliefs better. Should also add a population wide median measure.
+Also, shannon entropy measure. Looking at information/signal theory measures - perhaps this is a mutual information issue?
 
 ## Information sets
 
@@ -72,6 +73,6 @@ This would make it important to monitor beliefs better. Should also add a popula
 
 Assume an amalgam of assessors - family, GPs, social workers etc. This would imply heterogeneous beliefs. Assume that we take a brief period of time - we're interested in these people for a year (monthly assessments).
 
-Assessors are to be divisible by payoffs matrix - the matrix on their side represents an amalgam across the groups. Approach as a calibration process - looking for a scenario that leads to 2/3 single need unreferred, 1/3 severe need referred. Don't change the game at all - let stigma continue to be 'endogenous' to the receivers, but consider simply letting that not exist. Model based reasoning mismatch.
+Assessors are to be divisible by payoffs matrix - the matrix on their side represents an amalgam across the groups. Approach as a calibration process - looking for a scenario that leads to 2/3 single need unreferred, 1/3 severe need referred. Don't change the game at all - let stigma continue to be 'endogenous' to the receivers, but consider simply letting that not exist. Model based reasoning mismatch. Faulty ontologies.
 
 Use the ELSA parameters for proportions.
