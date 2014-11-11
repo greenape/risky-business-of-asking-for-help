@@ -1,0 +1,356 @@
+digraph g {
+	compound=true
+	node [shape=point, width=0.2]
+	root=nature
+	splines=false
+	edge [arrowhead=vee, penwidth=2.0]
+	#{rank=same harsh_midwife medium_midwife harsh_midwife}
+	#{rank=same harsh_heavy_drinker harsh_moderate_drinker harsh_light_drinker medium_heavy_drinker medium_moderate_drinker medium_light_drinker low_heavy_drinker low_moderate_drinker low_light_drinker}
+	#{rank=same harsh_heavy_light harsh_heavy_moderate harsh_heavy_heavy harsh_moderate_light harsh_moderate_moderate harsh_moderate_heavy harsh_light_light harsh_light_moderate harsh_light_heavy medium_heavy_light medium_heavy_moderate medium_heavy_heavy medium_moderate_light medium_moderate_moderate medium_moderate_heavy medium_light_light medium_light_moderate medium_light_heavy low_heavy_light low_heavy_moderate low_heavy_heavy low_moderate_light low_moderate_moderate low_moderate_heavy low_light_light low_light_moderate low_light_heavy}
+	#{rank=same harsh_heavy_light_refer harsh_heavy_moderate_refer harsh_heavy_heavy_refer harsh_moderate_light_refer harsh_moderate_moderate_refer harsh_moderate_heavy_refer harsh_light_light_refer harsh_light_moderate_refer harsh_light_heavy_refer medium_heavy_light_refer medium_heavy_moderate_refer medium_heavy_heavy_refer medium_moderate_light_refer medium_moderate_moderate_refer medium_moderate_heavy_refer medium_light_light_refer medium_light_moderate_refer medium_light_heavy_refer low_heavy_light_refer low_heavy_moderate_refer low_heavy_heavy_refer low_moderate_light_refer low_moderate_moderate_refer low_moderate_heavy_refer low_light_light_refer low_light_moderate_refer low_light_heavy_refer	harsh_heavy_light_no_refer harsh_heavy_moderate_no_refer harsh_heavy_heavy_no_refer harsh_moderate_light_no_refer harsh_moderate_moderate_no_refer harsh_moderate_heavy_no_refer harsh_light_light_no_refer harsh_light_moderate_no_refer harsh_light_heavy_no_refer medium_heavy_light_no_refer medium_heavy_moderate_no_refer medium_heavy_heavy_no_refer medium_moderate_light_no_refer medium_moderate_moderate_no_refer medium_moderate_heavy_no_refer medium_light_light_no_refer medium_light_moderate_no_refer medium_light_heavy_no_refer low_heavy_light_no_refer low_heavy_moderate_no_refer low_heavy_heavy_no_refer low_moderate_light_no_refer low_moderate_moderate_no_refer low_moderate_heavy_no_refer low_light_light_no_refer low_light_moderate_no_refer low_light_heavy_no_refer}
+	harsh_heavy_light_no_refer, harsh_heavy_moderate_no_refer, harsh_heavy_heavy_no_refer, harsh_moderate_light_no_refer, harsh_moderate_moderate_no_refer, harsh_moderate_heavy_no_refer, harsh_light_light_no_refer, harsh_light_moderate_no_refer, harsh_light_heavy_no_refer, medium_heavy_light_no_refer, medium_heavy_moderate_no_refer, medium_heavy_heavy_no_refer, medium_moderate_light_no_refer, medium_moderate_moderate_no_refer, medium_moderate_heavy_no_refer, medium_light_light_no_refer, medium_light_moderate_no_refer, medium_light_heavy_no_refer, low_heavy_light_no_refer, low_heavy_moderate_no_refer, low_heavy_heavy_no_refer, low_moderate_light_no_refer, low_moderate_moderate_no_refer, low_moderate_heavy_no_refer, low_light_light_no_refer, low_light_moderate_no_refer, low_light_heavy_no_refer [color="#66c2a5"]
+
+	/* Nature nodes */
+	nature [color="#66c2a5"]
+	harsh_midwife [color="#66c2a5"]
+	medium_midwife [color="#66c2a5"]
+	low_midwife [color="#66c2a5"]
+
+	/* Women nodes */
+	harsh_heavy_drinker [color="#8da0cb"]
+	harsh_light_drinker [color="#8da0cb"]
+	harsh_moderate_drinker [color="#8da0cb"]
+
+	medium_heavy_drinker [color="#8da0cb"]
+	medium_light_drinker [color="#8da0cb"]
+	medium_moderate_drinker [color="#8da0cb"]
+
+	low_heavy_drinker [color="#8da0cb"]
+	low_light_drinker [color="#8da0cb"]
+	low_moderate_drinker [color="#8da0cb"]
+
+	/* Midwife nodes harsh */
+
+	harsh_heavy_light [color="#fc8d62"]
+	harsh_heavy_moderate [color="#fc8d62"]
+	harsh_heavy_heavy [color="#fc8d62"]
+
+	harsh_moderate_light [color="#fc8d62"]
+	harsh_moderate_moderate [color="#fc8d62"]
+	harsh_moderate_heavy [color="#fc8d62"]
+
+	harsh_light_light [color="#fc8d62"]
+	harsh_light_moderate [color="#fc8d62"]
+	harsh_light_heavy [color="#fc8d62"]
+
+	/* Midwife nodes medium */
+
+	medium_heavy_light [color="#fc8d62"]
+	medium_heavy_moderate [color="#fc8d62"]
+	medium_heavy_heavy [color="#fc8d62"]
+
+	medium_moderate_light [color="#fc8d62"]
+	medium_moderate_moderate [color="#fc8d62"]
+	medium_moderate_heavy [color="#fc8d62"]
+
+	medium_light_light [color="#fc8d62"]
+	medium_light_moderate [color="#fc8d62"]
+	medium_light_heavy [color="#fc8d62"]
+
+	/* Midwife nodes low */
+
+	low_heavy_light [color="#fc8d62"]
+	low_heavy_moderate [color="#fc8d62"]
+	low_heavy_heavy [color="#fc8d62"]
+
+	low_moderate_light [color="#fc8d62"]
+	low_moderate_moderate [color="#fc8d62"]
+	low_moderate_heavy [color="#fc8d62"]
+
+	low_light_light [color="#fc8d62"]
+	low_light_moderate [color="#fc8d62"]
+	low_light_heavy [color="#fc8d62"]
+
+
+	/* Women's information sets */
+
+	
+	subgraph infosets {
+		edge [style=dashed, arrowhead=none, color="#4B454F4B", weight=0.01]
+		/*
+		subgraph women_info {
+			#edge [color="#8da0cb"]
+			subgraph {
+					edge [penwidth=5.0]
+					harsh_heavy_drinker -> medium_heavy_drinker 
+					#harsh_heavy_drinker -> low_heavy_drinker 
+					medium_heavy_drinker -> low_heavy_drinker 
+				}
+			subgraph {
+				edge [penwidth=4.0]
+					harsh_moderate_drinker -> medium_moderate_drinker 
+					#harsh_moderate_drinker -> low_moderate_drinker 
+					medium_moderate_drinker -> low_moderate_drinker 
+				}
+			subgraph {
+					harsh_light_drinker -> medium_light_drinker 
+					#harsh_light_drinker -> low_light_drinker 
+					medium_light_drinker -> low_light_drinker 
+					}
+		}*/
+		/* Midwive's information sets. */
+	
+		subgraph mw_info {
+			#edge [color="#fc8d62"]
+			subgraph {
+				low_light_light -> low_moderate_light 
+				#low_light_light -> low_heavy_light 
+				low_heavy_light -> low_moderate_light -> medium_light_light
+			
+				medium_light_light -> medium_moderate_light 
+				#medium_light_light -> medium_heavy_light 
+				medium_heavy_light -> medium_moderate_light -> harsh_light_light
+			
+				harsh_light_light -> harsh_moderate_light 
+				#harsh_light_light -> harsh_heavy_light 
+				harsh_heavy_light -> harsh_moderate_light 
+			}
+			subgraph {
+				edge [penwidth=4.0]
+				low_light_moderate -> low_moderate_moderate 
+				#low_light_moderate -> low_heavy_moderate 
+				low_heavy_moderate -> low_moderate_moderate -> medium_light_moderate
+				
+				medium_light_moderate -> medium_moderate_moderate 
+				#medium_light_moderate -> medium_heavy_moderate 
+				medium_heavy_moderate -> medium_moderate_moderate -> harsh_light_moderate
+			
+				harsh_light_moderate -> harsh_moderate_moderate
+				#harsh_light_moderate -> harsh_heavy_moderate 
+				harsh_heavy_moderate -> harsh_moderate_moderate 
+			}
+			subgraph {
+				edge [penwidth=5.0]
+				low_light_heavy -> low_moderate_heavy 
+				#low_light_heavy -> low_heavy_heavy 
+				low_heavy_heavy -> low_moderate_heavy -> medium_light_heavy
+			
+				medium_light_heavy -> medium_moderate_heavy 
+				#medium_light_heavy -> medium_heavy_heavy 
+				medium_heavy_heavy -> medium_moderate_heavy -> harsh_light_heavy
+			
+				harsh_light_heavy -> harsh_moderate_heavy 
+				#harsh_light_heavy -> harsh_heavy_heavy 
+				harsh_heavy_heavy -> harsh_moderate_heavy 
+			
+			}
+		}
+	}
+
+	nature -> harsh_midwife [color="#66c2a5",  penwidth=5.0]
+
+	subgraph harsh_midwife {
+	
+		harsh_midwife -> harsh_heavy_drinker  [color="#66c2a5", penwidth=5.0]
+		
+		subgraph harsh_midwife_heavy_drinker {
+				edge [color="#8da0cb"]
+				harsh_heavy_drinker -> harsh_heavy_light
+				harsh_heavy_drinker -> harsh_heavy_moderate [penwidth=4.0]
+				harsh_heavy_drinker -> harsh_heavy_heavy [penwidth=5.0]
+				
+				subgraph harsh_midwife_heavy_drinker_ref {
+								edge [color="#fc8d62"]
+								harsh_heavy_light -> harsh_heavy_light_refer [penwidth=4.0]
+								harsh_heavy_moderate -> harsh_heavy_moderate_refer [penwidth=4.0]
+								harsh_heavy_heavy -> harsh_heavy_heavy_refer [penwidth=4.0]
+								harsh_heavy_light -> harsh_heavy_light_no_refer
+								harsh_heavy_moderate -> harsh_heavy_moderate_no_refer
+								harsh_heavy_heavy -> harsh_heavy_heavy_no_refer}}
+		
+		harsh_midwife -> harsh_moderate_drinker [color="#66c2a5", penwidth=4.0]
+
+		subgraph harsh_midwife_moderate_drinker {
+			edge [color="#8da0cb"]
+				harsh_moderate_drinker -> harsh_moderate_light
+				harsh_moderate_drinker -> harsh_moderate_moderate [penwidth=4.0]
+				harsh_moderate_drinker -> harsh_moderate_heavy [penwidth=5.0]
+				
+				subgraph harsh_midwife_moderate_drinker_ref {
+								edge [color="#fc8d62"]
+								harsh_moderate_light -> harsh_moderate_light_refer [penwidth=4.0]
+								harsh_moderate_moderate -> harsh_moderate_moderate_refer [penwidth=4.0]
+								harsh_moderate_heavy -> harsh_moderate_heavy_refer [penwidth=4.0]
+							
+								harsh_moderate_light -> harsh_moderate_light_no_refer
+								harsh_moderate_moderate -> harsh_moderate_moderate_no_refer
+								harsh_moderate_heavy -> harsh_moderate_heavy_no_refer}}
+	
+		harsh_midwife -> harsh_light_drinker [color="#66c2a5"]
+		subgraph harsh_midwife_light_drinker {
+				edge [color="#8da0cb"]
+				harsh_light_drinker -> harsh_light_light
+				harsh_light_drinker -> harsh_light_moderate [penwidth=4.0]
+				harsh_light_drinker -> harsh_light_heavy [penwidth=5.0]
+				
+				subgraph harsh_midwife_light_drinker_ref {
+								edge [color="#fc8d62"]
+								harsh_light_light -> harsh_light_light_refer [penwidth=4.0]
+								harsh_light_moderate -> harsh_light_moderate_refer [penwidth=4.0]
+								harsh_light_heavy -> harsh_light_heavy_refer [penwidth=4.0]
+							
+								harsh_light_light -> harsh_light_light_no_refer
+								harsh_light_moderate -> harsh_light_moderate_no_refer
+								harsh_light_heavy -> harsh_light_heavy_no_refer}}}
+
+	nature -> medium_midwife [color="#66c2a5", penwidth=4.0]
+
+	subgraph medium_midwife {
+	
+		medium_midwife -> medium_heavy_drinker  [color="#66c2a5", penwidth=5.0]
+		
+		subgraph medium_midwife_heavy_drinker {
+				edge [color="#8da0cb"]
+				medium_heavy_drinker -> medium_heavy_light
+				medium_heavy_drinker -> medium_heavy_moderate [penwidth=4.0]
+				medium_heavy_drinker -> medium_heavy_heavy [penwidth=5.0]
+				
+				subgraph medium_midwife_heavy_drinker_ref {
+								edge [color="#fc8d62"]
+								medium_heavy_light -> medium_heavy_light_refer [penwidth=4.0]
+								medium_heavy_moderate -> medium_heavy_moderate_refer [penwidth=4.0]
+								medium_heavy_heavy -> medium_heavy_heavy_refer [penwidth=4.0]
+								medium_heavy_light -> medium_heavy_light_no_refer
+								medium_heavy_moderate -> medium_heavy_moderate_no_refer
+								medium_heavy_heavy -> medium_heavy_heavy_no_refer}}
+		
+		medium_midwife -> medium_moderate_drinker [color="#66c2a5", penwidth=4.0]
+
+		subgraph medium_midwife_moderate_drinker {
+			edge [color="#8da0cb"]
+				medium_moderate_drinker -> medium_moderate_light
+				medium_moderate_drinker -> medium_moderate_moderate [penwidth=4.0]
+				medium_moderate_drinker -> medium_moderate_heavy [penwidth=5.0]
+				
+				subgraph medium_midwife_moderate_drinker_ref {
+								edge [color="#fc8d62"]
+								medium_moderate_light -> medium_moderate_light_refer [penwidth=4.0]
+								medium_moderate_moderate -> medium_moderate_moderate_refer [penwidth=4.0]
+								medium_moderate_heavy -> medium_moderate_heavy_refer [penwidth=4.0]
+							
+								medium_moderate_light -> medium_moderate_light_no_refer
+								medium_moderate_moderate -> medium_moderate_moderate_no_refer
+								medium_moderate_heavy -> medium_moderate_heavy_no_refer}}
+	
+		medium_midwife -> medium_light_drinker [color="#66c2a5"]
+		subgraph medium_midwife_light_drinker {
+				edge [color="#8da0cb"]
+				medium_light_drinker -> medium_light_light
+				medium_light_drinker -> medium_light_moderate [penwidth=4.0]
+				medium_light_drinker -> medium_light_heavy [penwidth=5.0]
+				
+				subgraph medium_midwife_light_drinker_ref {
+								edge [color="#fc8d62"]
+								medium_light_light -> medium_light_light_refer [penwidth=4.0]
+								medium_light_moderate -> medium_light_moderate_refer [penwidth=4.0]
+								medium_light_heavy -> medium_light_heavy_refer [penwidth=4.0]
+							
+								medium_light_light -> medium_light_light_no_refer
+								medium_light_moderate -> medium_light_moderate_no_refer
+								medium_light_heavy -> medium_light_heavy_no_refer}}}
+
+	nature -> low_midwife [color="#66c2a5"]
+
+	subgraph low_midwife {
+	
+		low_midwife -> low_heavy_drinker  [color="#66c2a5", penwidth=5.0]
+		
+		subgraph low_midwife_heavy_drinker {
+				edge [color="#8da0cb"]
+				low_heavy_drinker -> low_heavy_light
+				low_heavy_drinker -> low_heavy_moderate [penwidth=4.0]
+				low_heavy_drinker -> low_heavy_heavy [penwidth=5.0]
+				
+				subgraph low_midwife_heavy_drinker_ref {
+								edge [color="#fc8d62"]
+								low_heavy_light -> low_heavy_light_refer [penwidth=4.0]
+								low_heavy_moderate -> low_heavy_moderate_refer [penwidth=4.0]
+								low_heavy_heavy -> low_heavy_heavy_refer [penwidth=4.0]
+								low_heavy_light -> low_heavy_light_no_refer
+								low_heavy_moderate -> low_heavy_moderate_no_refer
+								low_heavy_heavy -> low_heavy_heavy_no_refer}}
+		
+		low_midwife -> low_moderate_drinker [color="#66c2a5", penwidth=4.0]
+
+		subgraph low_midwife_moderate_drinker {
+			edge [color="#8da0cb"]
+				low_moderate_drinker -> low_moderate_light
+				low_moderate_drinker -> low_moderate_moderate [penwidth=4.0]
+				low_moderate_drinker -> low_moderate_heavy [penwidth=5.0]
+				
+				subgraph low_midwife_moderate_drinker_ref {
+								edge [color="#fc8d62"]
+								low_moderate_light -> low_moderate_light_refer [penwidth=4.0]
+								low_moderate_moderate -> low_moderate_moderate_refer [penwidth=4.0]
+								low_moderate_heavy -> low_moderate_heavy_refer [penwidth=4.0]
+							
+								low_moderate_light -> low_moderate_light_no_refer
+								low_moderate_moderate -> low_moderate_moderate_no_refer
+								low_moderate_heavy -> low_moderate_heavy_no_refer}}
+	
+		low_midwife -> low_light_drinker [color="#66c2a5"]
+		subgraph low_midwife_light_drinker {
+				edge [color="#8da0cb"]
+				low_light_drinker -> low_light_light
+				low_light_drinker -> low_light_moderate [penwidth=4.0]
+				low_light_drinker -> low_light_heavy [penwidth=5.0]
+				
+				subgraph low_midwife_light_drinker_ref {
+								edge [color="#fc8d62"]
+								low_light_light -> low_light_light_refer [penwidth=4.0]
+								low_light_moderate -> low_light_moderate_refer [penwidth=4.0]
+								low_light_heavy -> low_light_heavy_refer [penwidth=4.0]
+							
+								low_light_light -> low_light_light_no_refer
+								low_light_moderate -> low_light_moderate_no_refer
+								low_light_heavy -> low_light_heavy_no_refer}}}
+
+	/* Backlinks */
+	/*low_light_heavy_no_refer -> nature [weight=0]
+	low_light_moderate_no_refer -> nature [weight=0]
+	low_light_light_no_refer -> nature [weight=0]
+
+	medium_light_heavy_no_refer -> nature [weight=0]
+	medium_light_moderate_no_refer -> nature [weight=0]
+	medium_light_light_no_refer -> nature [weight=0]
+
+	harsh_light_heavy_no_refer -> nature [weight=0]
+	harsh_light_moderate_no_refer -> nature [weight=0]
+	harsh_light_light_no_refer -> nature [weight=0]
+
+	low_moderate_heavy_no_refer -> nature [weight=0]
+	low_moderate_moderate_no_refer -> nature [weight=0]
+	low_moderate_light_no_refer -> nature [weight=0]
+
+	medium_moderate_heavy_no_refer -> nature [weight=0]
+	medium_moderate_moderate_no_refer -> nature [weight=0]
+	medium_moderate_light_no_refer -> nature [weight=0]
+
+	harsh_moderate_heavy_no_refer -> nature [weight=0]
+	harsh_moderate_moderate_no_refer -> nature [weight=0]
+	harsh_moderate_light_no_refer -> nature [weight=0]
+
+	low_heavy_heavy_no_refer -> nature [weight=0]
+	low_heavy_moderate_no_refer -> nature [weight=0]
+	low_heavy_light_no_refer -> nature [weight=0]
+
+	medium_heavy_heavy_no_refer -> nature [weight=0]
+	medium_heavy_moderate_no_refer -> nature [weight=0]
+	medium_heavy_light_no_refer -> nature [weight=0]
+
+	harsh_heavy_heavy_no_refer -> nature [weight=0]
+	harsh_heavy_moderate_no_refer -> nature [weight=0]
+	harsh_heavy_light_no_refer -> nature [weight=0]
+	*/
+
+}

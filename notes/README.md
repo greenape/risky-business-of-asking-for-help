@@ -63,3 +63,7 @@ Would be looking for a scenario where around 2/3 of single need get no help, vs.
 ## New measures
 
 This would make it important to monitor beliefs better. Should also add a population wide median measure.
+
+## Information sets
+
+![Game tree](../figures/graphviz/tree_v1.png "Game tree with dual types per signaller")
