@@ -64,6 +64,7 @@ Would be looking for a scenario where around 2/3 of single need get no help, vs.
 
 This would make it important to monitor beliefs better. Should also add a population wide median measure.
 Also, shannon entropy measure. Looking at information/signal theory measures - perhaps this is a mutual information issue?
+Yes! Can use sum of pointwise mutual informations to measure this.
 
 ## Information sets
 
