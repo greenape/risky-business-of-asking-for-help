@@ -67,3 +67,7 @@ This would make it important to monitor beliefs better. Should also add a popula
 ## Information sets
 
 ![Game tree](../figures/graphviz/tree_v1.png "Game tree with dual types per signaller")
+
+## Simple Scenario
+
+Assume an amalgam of assessors - family, GPs, social workers etc. This would imply heterogeneous beliefs. Assume that we take a brief period of time - we're interested in these people for a year (monthly assessments).
