@@ -85,11 +85,17 @@ Interesting things to look at (at some point), are biasing the currently uniform
 ## Parameters to vary
 
 -	Payoffs
-	-	All? Set a max of 100 (pos for payoffs, - for costs) and use a 0-1 multiplier
--	Sharing
+	-	All? Set a max of 100 (pos for payoffs, - for costs) and use a 0-1 multiplier (13 in all)
+-	Sharing (4 in all)
+
 
 ## Parameters to fix
 
 -	Type proportions
 	-	All good people for assessors
 	-	Percentages of need from CLC. 16.2% moderate, 9% severe, 74.8% no need.
+
+## Measures to add
+
+-	Percentage referred and signalled honestly
+-	Percentage not referred and signalled honestly
