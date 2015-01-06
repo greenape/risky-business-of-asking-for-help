@@ -77,3 +77,19 @@ Assume an amalgam of assessors - family, GPs, social workers etc. This would imp
 Assessors are to be divisible by payoffs matrix - the matrix on their side represents an amalgam across the groups. Approach as a calibration process - looking for a scenario that leads to 2/3 single need unreferred, 1/3 severe need referred. Don't change the game at all - let stigma continue to be 'endogenous' to the receivers, but consider simply letting that not exist. Model based reasoning mismatch. Faulty ontologies.
 
 Use the ELSA parameters for proportions.
+
+## Thoughts on beliefs
+
+Interesting things to look at (at some point), are biasing the currently uniform distribution of beliefs for women. Maybe something like a normal distribution on good and helpful. Also, making the beliefs of new players an aggregate of the overall population.
+
+## Parameters to vary
+
+-	Payoffs
+	-	All? Set a max of 100 (pos for payoffs, - for costs) and use a 0-1 multiplier
+-	Sharing
+
+## Parameters to fix
+
+-	Type proportions
+	-	All good people for assessors
+	-	Percentages of need from CLC. 16.2% moderate, 9% severe, 74.8% no need.
