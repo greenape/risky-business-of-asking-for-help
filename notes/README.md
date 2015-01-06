@@ -82,10 +82,15 @@ Use the ELSA parameters for proportions.
 
 Interesting things to look at (at some point), are biasing the currently uniform distribution of beliefs for women. Maybe something like a normal distribution on good and helpful. Also, making the beliefs of new players an aggregate of the overall population.
 
+## Things to consider changing
+
+-	Most obvious, is different referral costs. Leave that for the next iteration though.
+
 ## Parameters to vary
 
 -	Payoffs
-	-	All? Set a max of 100 (pos for payoffs, - for costs) and use a 0-1 multiplier (13 in all)
+	-	All? Set a max of 100 (pos for payoffs, - for costs) and use a 0-1 multiplier (11 in all)
+	-	Start with the existing distinction parameterisation?
 -	Sharing (4 in all)
 
 
@@ -94,6 +99,8 @@ Interesting things to look at (at some point), are biasing the currently uniform
 -	Type proportions
 	-	All good people for assessors
 	-	Percentages of need from CLC. 16.2% moderate, 9% severe, 74.8% no need.
+- 	Low social penalty at 0 for all signals
+-	Referral cost? Discounted sum of p/h costs?
 
 ## Measures to add
 
