@@ -92,6 +92,7 @@ Interesting things to look at (at some point), are biasing the currently uniform
 	-	All? Set a max of 100 (pos for payoffs, - for costs) and use a 0-1 multiplier (11 in all)
 	-	Start with the existing distinction parameterisation?
 -	Sharing (4 in all)
+- Three candidate groups - beliefs, payoffs, sharing.
 
 
 ## Parameters to fix
@@ -106,3 +107,31 @@ Interesting things to look at (at some point), are biasing the currently uniform
 
 -	Percentage referred and signalled honestly
 -	Percentage not referred and signalled honestly
+
+## Beliefs
+
+What we want here, is a sliding scale of optimism-pessimism, and one of equivocation to certainty. And we want the actual beliefs to be normally distributed.
+
+equivocation to certainty is easy enough - just the number of points allocatable.
+
+Optimism pessimism -> slope of line parameterising a multinomial distribution. 1.0 
+
+More difficult than it looks, because this all just glosses over scenarios with weird pathological behaviour (signalling medium is the *only* way to get referred).
+
+It would all be so much easier if we just dropped the three types. Drops payoffs down to 7
+
+Or just cast it in pos-neg. Use the honesty bias from the original, but - strength of belief. Strength of bias.
+
+Define a scale for positive to negative world view.
+
+
+Or just go all in, on 18 parameters...
+
+## Dropping a type
+
+-	Reduces #payoffs to 7
+	-	Could then do normally distributed payoffs
+-	Reduces beliefs to 5, and binary ones.
+	-	Makes it pretty easy to set of a sliding scale of positive-negative world view, and strength of that view
+-	Easier analysis
+-	Easier calibration (single output)
