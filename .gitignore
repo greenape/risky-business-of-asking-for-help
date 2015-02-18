@@ -11,3 +11,18 @@
 disclosuregame/_version.py
 
 /model/
+
+evidence/beliefs/
+evidence/payoffs/
+evidence/elsa
+evidence/.ipynb_checkpoints/Parameters from Data-checkpoint.ipynb
+
+evidence/.RData
+
+evidence/.Rhistory
+
+evidence/comm-care-stat-home-care-serv-eng-2004-tab.xls
+
+evidence/comm-care-stat-home-care-serv-eng-2008-tab.xls
+
+evidence/focu-on-hac-op-dat-tabs.xlsx

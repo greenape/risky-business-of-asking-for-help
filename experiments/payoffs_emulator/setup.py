@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 ##
 ## Python script to generate a latin hypercube sample for
 ## payoffs to be used in training a GEM.
@@ -24,7 +25,7 @@ parser.add_argument('-f', '--fixed-payoffs', type=str, nargs='*',
  help='Payoffs to hold at a fixed value.', default=["harsh_low", "mid_low", "low_low"],
  dest="fixed_payoffs")
 parser.add_argument('-v', '--fixed-payoff-values', type=int, nargs='*',
- help='Fixed value(s) to hold payoffs at, in the same order as the fixed payoffs provided.', default=["harsh_low", "mid_low", "low_low"],
+ help='Fixed value(s) to hold payoffs at, in the same order as the fixed payoffs provided.', default=[0, 0, 0],
  dest="fixed_values")
 parser.add_argument('-c', '--chunksize', type=int, nargs='*',
     help='Optionally break down arguments into multiple files containing this many (for HPC work).', default=16,

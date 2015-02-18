@@ -89,7 +89,7 @@ Interesting things to look at (at some point), are biasing the currently uniform
 ## Parameters to vary
 
 -	Payoffs
-	-	All? Set a max of 100 (pos for payoffs, - for costs) and use a 0-1 multiplier (11 in all)
+	-	All? Set a max of 100 (pos for payoffs, - for costs) and use a 0-1 multiplier (10 in all)
 	-	Start with the existing distinction parameterisation?
 -	Sharing (4 in all)
 - Three candidate groups - beliefs, payoffs, sharing.
@@ -129,9 +129,28 @@ Or just go all in, on 18 parameters...
 
 ## Dropping a type
 
--	Reduces #payoffs to 7
+-	Reduces #payoffs to 7 (5, if the no need signal is held at 0)
 	-	Could then do normally distributed payoffs
+	-	Easier to explore whether "no need" might actually be *positive*
 -	Reduces beliefs to 5, and binary ones.
 	-	Makes it pretty easy to set of a sliding scale of positive-negative world view, and strength of that view
 -	Easier analysis
 -	Easier calibration (single output)
+
+
+Dropped types are go
+
+Todo:
+
+Make a list of all the parameters, and possible sources for their values.
+
+homecare scoping http://www.nice.org.uk/guidance/gid-scwave0713/documents/home-care-final-scope2
+costs Personal Social Services: Expenditure and Unit Costs - England, 2011-12, Final Release [NS]
+
+attitudes http://www.cpa.org.uk/information/reviews/CPA-%20ageism_and_age_discrimination_in_social_care-report.pdf
+ESS -> both 'are people honest' (A8,9,10), and perceived levels of age discrimination (C24, 25)
+Maybe BSS Q646
+Q10 ba13 B
+
+Prospect theory -> ELSA has a risks module..
+
