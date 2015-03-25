@@ -101,13 +101,13 @@ QALYS -> Quality adjusted life years
 
 ELSA help with ->
 
-mobility hemobwa hemobsi hemobch
-hemobcs hemobcl hemobst hemobre hemobpu hemobli hemobpi hemob96
+mobility 1 hemobwa 2 hemobsi 3 hemobch
+4 hemobcs 5 hemobcl 6 hemobst 7 hemobre 8 hemobpu 9 hemobli 10 hemobpi 11 hemob96
 
-adl headldr headlwa headlba
-headlea headlbe headlwc 
-iadl headlma headlpr headlsh headlph headlme headlho headlmo
-headlb14 headlb15 headl96
+adl 1 headldr 2 headlwa 3 headlba
+4 headlea 5 headlbe 6 headlwc 
+iadl 7 headlma 8 headlpr 9 headlsh 10 headlph 11 headlme 12 headlho 13 headlmo
+14 headlb14 15 headlb15 headl96
 
 washing/dressing 1 or 2
 phone/money 11, 15
