@@ -1,0 +1,19 @@
+#PBS -S /bin/bash
+#PBS -l walltime=60:00:00
+#PBS -l nodes=25:ppn=16
+
+cd /home/jg1g12/risky-aging-model/disclosuregame
+echo "Current working directory is `pwd`"
+
+#delete existing log file
+# if [ -f log ]; then
+#     rm log
+# fi
+
+# create task list
+cat /home/jg1g12/risky-aging-model/experiments/sa_4/commands.txt > /home/jg1g12/risky-aging-model/experiments/sa_4/tasks.txt
+
+# launch task farmer
+module load python
+module load taskfarmer
+mpirun taskfarmer -v -f /home/jg1g12/risky-aging-model/experiments/sa_4/tasks.txt
